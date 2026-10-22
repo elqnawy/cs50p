@@ -1,0 +1,5 @@
+Bill =int(input("what is the bill "))
+tip =int(input("what is the percentage of the tip ").replace("%","" ))
+tips= Bill * (tip/100)
+print(f"tip ={tips}")
+print(f"total ={Bill+tips}")
